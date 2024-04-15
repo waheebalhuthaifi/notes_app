@@ -16,6 +16,7 @@ class NoteItem extends StatelessWidget {
         Navigator.pushNamed(
           context,
           EditNoteView.id,
+          arguments: note,
         );
       },
       child: Container(
